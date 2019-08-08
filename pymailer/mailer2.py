@@ -61,7 +61,7 @@ def send_mail():
     
                 except:
                     if(count==3):
-                        print("Sorry! Unkown error!")
+                        print("Sorry! Unknown error!")
                         break
                     password = getpass.getpass("Enter correct password for " +email_add+": ")
                     count+=1
